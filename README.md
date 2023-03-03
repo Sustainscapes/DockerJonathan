@@ -26,3 +26,8 @@ folder where you want your results to be saved at.
 
 Then you open in your preferred browser the url <http://localhost:8787>,
 and you can log in and start you analysis.
+
+## Installation for windows users
+
+if you are windows user and want to use docker here is an [installation
+guide](https://www.simplilearn.com/tutorials/docker-tutorial/install-docker-on-windows)
