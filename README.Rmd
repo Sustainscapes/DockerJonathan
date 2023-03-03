@@ -24,8 +24,9 @@ The goal of DockerJonathan is to complete a Docker file and its manual in order 
 Once the container is ready you need to run the following comand
 
 ```{bash, eval = F}
-docker run -d -p 8787:8787 -e PASSWORD=yourpassword -v /yourfolder/fullpath:/home/rstudio/LOOKATMEEE:rw derekcorcoran/rfate
+docker run -d -p 8787:8787 -e PASSWORD=yourpassword -v /yourfolder/fullpath:/home/rstudio/LOOKATMEEE:rw derekcorcoran/derekcorcoran/rfate:63fe503bc1cb4139acfc8338596bed00d99972af
 ```
+
 
 Here `yourpassword` should be a password that you will use for accessing rstudio server the username is always rstudio.
 

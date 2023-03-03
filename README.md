@@ -15,7 +15,7 @@ without the package breaking
 Once the container is ready you need to run the following comand
 
 ``` bash
-docker run -d -p 8787:8787 -e PASSWORD=yourpassword -v /yourfolder/fullpath:/home/rstudio/LOOKATMEEE:rw derekcorcoran/rfate
+docker run -d -p 8787:8787 -e PASSWORD=yourpassword -v /yourfolder/fullpath:/home/rstudio/LOOKATMEEE:rw derekcorcoran/derekcorcoran/rfate:63fe503bc1cb4139acfc8338596bed00d99972af
 ```
 
 Here `yourpassword` should be a password that you will use for accessing
